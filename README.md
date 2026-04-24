@@ -10,13 +10,13 @@ Application MATLAB créée avec App Designer. Elle permet de charger une image e
  
 | # | Filtre | Effet | Formule |
 |---|--------|-------|---------|
-| 1 | Correction gamma | Rend l'image plus claire. Les zones sombres deviennent visibles. | <p align="center"><img src="https://render.githubusercontent.com/render/math?math=I_{out}=I_{in}^{\gamma}"></p> |
-| 2 | Transformation exponentielle | Augmente les petites valeurs. Les zones sombres deviennent claires. | <p align="center"><img src="https://render.githubusercontent.com/render/math?math=I_{out}=\frac{e^{I_{in}}-1}{\max(e^{I_{in}}-1)}"></p> |
-| 3 | Transformation logarithmique | Réduit les grandes valeurs. Améliore le contraste dans le noir. | <p align="center"><img src="https://render.githubusercontent.com/render/math?math=I_{out}=\frac{\log(1+I_{in})}{\max(\log(1+I_{in}))}"></p> |
-| 4 | Étirement linéaire | Étale toutes les valeurs entre 0 et 255. Améliore le contraste. | <p align="center"><img src="https://render.githubusercontent.com/render/math?math=I_{out}=255\times\frac{I_{in}-I_{min}}{I_{max}-I_{min}}"></p> |
-| 5 | Égalisation d'histogramme | Distribue les pixels sur toutes les couleurs. Contraste maximum. | <p align="center"><img src="https://render.githubusercontent.com/render/math?math=I_{out}=\text{CDF}(I_{in})\times255"></p> |
-| 6 | Filtre Sobel | Trouve les contours de l'image. | <p align="center"><img src="https://render.githubusercontent.com/render/math?math=\text{magnitude}=\sqrt{G_x^2+G_y^2}"></p> |
-| 7 | Méthode OTSU | Transforme l'image en noir et blanc. | <p align="center"><img src="https://render.githubusercontent.com/render/math?math=I_{out}=\begin{cases}255&\text{si }I_{in}\geq\text{seuil}\\0&\text{sinon}\end{cases}"></p> |
+| 1 | Correction gamma | Rend l'image plus claire. Les zones sombres deviennent visibles. | <p align="center"><img src="https://latex.codecogs.com/png.latex?I_{out}=I_{in}^{\gamma}"></p> |
+| 2 | Transformation exponentielle | Augmente les petites valeurs. Les zones sombres deviennent claires. | <p align="center"><img src="https://latex.codecogs.com/png.latex?I_{out}=\frac{e^{I_{in}}-1}{\max(e^{I_{in}}-1)}"></p> |
+| 3 | Transformation logarithmique | Réduit les grandes valeurs. Améliore le contraste dans le noir. | <p align="center"><img src="https://latex.codecogs.com/png.latex?I_{out}=\frac{\log(1+I_{in})}{\max(\log(1+I_{in}))}"></p> |
+| 4 | Étirement linéaire | Étale toutes les valeurs entre 0 et 255. Améliore le contraste. | <p align="center"><img src="https://latex.codecogs.com/png.latex?I_{out}=255\times\frac{I_{in}-I_{min}}{I_{max}-I_{min}}"></p> |
+| 5 | Égalisation d'histogramme | Distribue les pixels sur toutes les couleurs. Contraste maximum. | <p align="center"><img src="https://latex.codecogs.com/png.latex?I_{out}=\text{CDF}(I_{in})\times255"></p> |
+| 6 | Filtre Sobel | Trouve les contours de l'image. | <p align="center"><img src="https://latex.codecogs.com/png.latex?\text{magnitude}=\sqrt{G_x^2+G_y^2}"></p> |
+| 7 | Méthode OTSU | Transforme l'image en noir et blanc. | <p align="center"><img src="https://latex.codecogs.com/png.latex?I_{out}=\begin{cases}255&\text{si }I_{in}\geq\text{seuil}\\0&\text{sinon}\end{cases}"></p> |
 ---
 ## Prérequis pour l'installation
 
