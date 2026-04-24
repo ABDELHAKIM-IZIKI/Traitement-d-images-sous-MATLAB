@@ -68,16 +68,6 @@ MyFilter.exe
 3. Lancez `MyFilter.exe`.
 
 ---
-
-
-
-## Démonstration
-
-![Demo - Filtre Sobel](demo.png)
-*Exemple : application du Filtre Sobel sur une image d'éléphant — détection des contours avec histogramme et statistiques.*
-
----
-
 ## Utilisation
 
 1. Lancez l'application `MyFilter.exe`
@@ -88,6 +78,16 @@ MyFilter.exe
 6. Consultez l'histogramme et les statistiques
 
 ---
+
+
+## Démonstration
+
+![Demo - Filtre Sobel](demo.png)
+*Exemple : application du Filtre Sobel sur une image d'éléphant — détection des contours avec histogramme et statistiques.*
+
+---
+
+
 
 ## Technologies utilisées
 
