@@ -22,7 +22,7 @@ Application MATLAB créée avec App Designer. Elle permet de charger une image e
 Avant de lancer l'application, vous devez installer **MATLAB Runtime R2024a**.
 
 ### Option 1 — Téléchargement automatique
-Utilisez l'installateur dans le dossier `for_redistribution` :
+Utilisez l'installateur dans le dossier `The App/for_redistribution` :
 ```
 MyAppInstaller_web.exe
 ```
@@ -44,7 +44,7 @@ Téléchargez MATLAB Runtime R2024a depuis le site MathWorks :
 git clone https://github.com/votre-username/matlab-outil-amelioration-image.git
 ```
 
-2. Allez dans le dossier `for_redistribution_files_only` :
+2. Allez dans le dossier `The App/for_redistribution_files_only` :
 ```
 MyFilter.exe
 ```
@@ -53,10 +53,10 @@ MyFilter.exe
 
 ---
 
-## Structure du repository
+## Structure du The App 
 
 ```
-matlab-outil-amelioration-image/
+The App/
 │
 ├── for_redistribution/
 │   └── MyAppInstaller_web.exe    # Installateur avec Runtime intégré
@@ -94,7 +94,3 @@ matlab-outil-amelioration-image/
 - **MATLAB Compiler** (déploiement standalone)
 
 ---
-
-## Auteur
-
-Développé dans le cadre d'un projet universitaire de traitement d'image.
