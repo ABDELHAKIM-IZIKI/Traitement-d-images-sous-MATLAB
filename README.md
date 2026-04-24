@@ -18,6 +18,21 @@ Application MATLAB créée avec App Designer. Elle permet de charger une image e
 | 6 | Filtre Sobel | Trouve les contours de l'image. | <p align="center"><img src="https://latex.codecogs.com/png.latex?\text{magnitude}=\sqrt{G_x^2+G_y^2}"></p> |
 | 7 | Méthode OTSU | Transforme l'image en noir et blanc. | <p align="center"><img src="https://latex.codecogs.com/png.latex?I_{out}=255\;\text{si}\;I_{in}\geq\text{seuil},\;0\;\text{sinon}"></p> |
 ---
+## Structure du The App 
+
+```
+The App/
+│
+├── for_redistribution/
+│   └── MyAppInstaller_web.exe    # Installateur avec Runtime intégré
+│
+└── for_redistribution_files_only/
+    ├── MyFilter.exe              # Application standalone
+    ├── splash.png                # Écran de démarrage
+    └── readme.txt                # Instructions en anglais
+```
+
+---
 ## Prérequis pour l'installation
 
 Avant de lancer l'application, vous devez installer **MATLAB Runtime R2024a**.
@@ -54,21 +69,7 @@ MyFilter.exe
 
 ---
 
-## Structure du The App 
 
-```
-The App/
-│
-├── for_redistribution/
-│   └── MyAppInstaller_web.exe    # Installateur avec Runtime intégré
-│
-└── for_redistribution_files_only/
-    ├── MyFilter.exe              # Application standalone
-    ├── splash.png                # Écran de démarrage
-    └── readme.txt                # Instructions en anglais
-```
-
----
 
 ## Démonstration
 
