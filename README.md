@@ -123,7 +123,9 @@ imgResult = uint8(255 * magnitude / max(magnitude(:)));
 > Le seuil est calculé automatiquement par MATLAB. On peut aussi entrer un seuil manuellement (0–255).
  
 **Formule :**
-$$I_{out} = \begin{cases} 255 & \text{si } I_{in} \geq \text{seuil} \\ 0 & \text{si } I_{in} < \text{seuil} \end{cases}$$
+$$
+I_{out} = \begin{cases} 255 & \text{si } I_{in} \geq \text{seuil} \\ 0 & \text{si } I_{in} < \text{seuil} \end{cases}
+$$
  
 **Code MATLAB :**
 ```matlab
